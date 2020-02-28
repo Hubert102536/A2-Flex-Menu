@@ -1,0 +1,85 @@
+/*@TODO (6) : Specify what each selector and property-value pair does and means*/
+
+html /*This selector select all the html elements*/ 
+ {
+  box-sizing: border-box; /* box-sizing allows us to include the padding and border in an element's total width and height*/
+  }
+*, *:before, *:after  /*This selector is used to sellect all elements*/ 
+  {
+  box-sizing: inherit; /* box-sizing allows us to include the padding and border in an element's total width and height*/
+  }
+body /* Select all the body elements*/ 
+  { 
+  font-family: Georgia, serif; /*It specifies a hierarchy list of preferred fonts that a browser should use to draw the element*/
+  line-height: 1.5em; /*this property sets the distance between adjacent lines*/
+  }
+h1 /*Select all the h1 elements*/ 
+  {
+  font-size: 4em; /*specifies how large text appears on a web page.*/
+  font-weight: normal; /* the weight of the font is how bold it is*/
+  }
+h2 /*Select all the h2 elements*/ 
+  {
+  font-size: 1.2em; /*specifies how large text appears on a web page*/
+  margin-top: 0; /* specifies where the top of an element will be placed.*/
+  }
+#menu /*Select the elements with id="menu"*/
+  {
+  border: 3px solid #783F27;
+  display: flex;
+  flex-wrap: wrap;
+
+
+  }
+section /*Select all section elements*/
+ {
+  background: #F6F3ED;
+  margin: 10px;
+  padding: 20px;
+  border: 1px dotted maroon;
+  width: 255px;
+  display: flex;
+  flex-wrap: wrap;
+ }
+.title /*Select all elements with class="title"*/
+ {
+  background-color: #783F27; /*specifies background color of an element*/
+  color: #F9AB33;
+  line-height: 4em;
+  align-items: center; 
+  }
+
+.price /*Select all elements with class="*/
+ {
+  font-weight: bold;  /* the weight of the font is how bold it is*/
+  background: #F9AB33;
+  padding: 5px;
+  width: 100%;
+  text-align: center; /*this property enables you to control how the first line of any element is indented, or outdented*/
+  margin-top:auto;
+
+  }
+
+
+
+.Additional-flexbox {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+
+
+/* .flex-item img {
+  width:200px;
+}
+ */
